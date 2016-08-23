@@ -5,7 +5,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <RouteHandler />
+        {this.props.children}
       </div>
     );
   }
